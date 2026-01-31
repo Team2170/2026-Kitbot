@@ -1,12 +1,11 @@
 package frc.robot.subsystems;
-
-import com.revrobotics.spark.SparkBase.PersistMode;
-import com.revrobotics.spark.SparkBase.ResetMode;
-import com.revrobotics.spark.SparkLowLevel.MotorType;
 import com.revrobotics.spark.SparkMax;
+import com.revrobotics.spark.SparkBase.ResetMode;
+import com.revrobotics.spark.SparkBase.PersistMode;
 import com.revrobotics.spark.config.SparkMaxConfig;
-import static frc.robot.Constants.DriveConstants.*;
 import edu.wpi.first.wpilibj2.command.SubsystemBase;
+import com.revrobotics.spark.SparkLowLevel.MotorType;
+import static frc.robot.Constants.DriveConstants.*;
 
 public class CANFuelSubsystem extends SubsystemBase{
     //Initializes the motor controllers

@@ -11,6 +11,7 @@ public final class Constants {
         public static final int Voltage = 12;
         public static final int CurrentLimit =60;
         public static final int driverControllerPort = 0;
+        public static final int operatorControllerPort = 1;
     
     }
 }
