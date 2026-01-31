@@ -45,9 +45,9 @@ public class CANDriveSubsystem extends SubsystemBase{
         config.inverted(true);
         rightLeader.configure(config,ResetMode.kResetSafeParameters,PersistMode.kPersistParameters);
     }
+
     @Override
     public void periodic(){
-
     }
 
     public void driveArcade(double xSpeed, double zRotation){
